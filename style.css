@@ -104,6 +104,39 @@ p {
 .me-img{
 	border-radius:20px;
 }
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    background: var(--primary-color);	
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-github:before {
+    content: "\f09b";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
 @media (max-width: 524px) {
   h1 {
     font-size: 48px;
