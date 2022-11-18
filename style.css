@@ -10,7 +10,7 @@ body {
 }
 
 .container{
-	background-color: beige;
+	background-color: #c97ba757;
 	border-radius: 20px;
 }
 
@@ -26,12 +26,17 @@ h1 {
   font-size: 48px;
   font-weight: 800;
 }
-
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
 h3 {
   font-size: 24px;
   font-weight: 700;
 }
-
+.row{
+	background: var(--secondary-color);
+}
 p {
   /* background: var(--secondary-color); */
   padding: 20px;
